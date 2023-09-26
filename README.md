@@ -50,34 +50,6 @@ In this project, I was tasked with creating a binary classification model to pre
 - I attempted various optimization techniques to achieve a target predictive accuracy higher than 75%.
 - Optimization strategies included data preprocessing modifications, adjusting the neural network architecture, and modifying hyperparameters.
 
-## Step 4: Report on the Neural Network Model
-### Overview of the Analysis
-- The analysis aimed to build a predictive model to determine the success of funded organizations by Alphabet Soup.
-
-### Results
-- **Data Preprocessing**:
-  - Target variable: "IS_SUCCESSFUL."
-  - Feature variables selected based on relevance.
-  - Unnecessary columns "EIN" and "NAME" removed.
-  - Unique values and rare category binning performed.
-  - Categorical variables encoded.
-  - Train-test split and feature scaling applied.
-
-- **Compiling, Training, and Evaluating the Model**:
-  - Neural network model designed with appropriate layers and activation functions.
-  - Model compiled and trained, with model weights saved during training.
-  - Model evaluated, and accuracy assessed.
-
-### Summary
-- The deep learning model achieved an accuracy that met or exceeded the 75% target.
-- Optimization techniques were applied to enhance model performance.
-- The optimized model was saved to "AlphabetSoupCharity_Optimization.h5."
-
-## Step 5: Repository Management
-- I downloaded the Colab notebooks containing the code and results.
-- These files were moved into the local Deep Learning Challenge directory.
-- The updated files were pushed to my GitHub repository.
-
 This concludes the Deep Learning Challenge for Alphabet Soup, where I successfully built, trained, and optimized a neural network model to predict the success of funded organizations. The model's performance met the target accuracy, demonstrating its suitability for the classification problem.
 
 ## References
