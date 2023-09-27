@@ -27,11 +27,13 @@ The purpose of this analysis is to develop a deep learning model for Alphabet So
 Model Architectures:
 ## Model 1:
 
-Layers: 2
-Activation Functions: Relu, Sigmoid
-Neurons: Layer 1: 80, Layer 2: 30
-Epochs: 100
-Results: Loss - 0.5559, Accuracy - 0.7290
+- Layers: 2
+- Activation Functions: Relu, Sigmoid
+- Neurons: Layer 1: 80, Layer 2: 30
+- Epochs: 100
+- Results: Loss - 0.5559, Accuracy - 0.7290
+
+![image](https://github.com/mehpree/deep-learning-challenge/assets/131678606/7248414b-d9d9-4750-81df-af0fbcad23ae)
 
 ## Optimized Model 1:
 
