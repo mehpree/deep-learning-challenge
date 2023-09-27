@@ -37,32 +37,36 @@ Model Architectures:
 
 ## Optimized Model 1:
 
-Layers: 3
-Activation Functions: Tanh, Relu, Sigmoid
-Neurons: Layer 1: 120, Layer 2: 100, Layer 3: 80
-Epochs: 100
-Results: Loss - 0.5879, Accuracy - 0.7243
+- Layers: 3
+- Activation Functions: Tanh, Relu, Sigmoid
+- Neurons: Layer 1: 120, Layer 2: 100, Layer 3: 80
+- Epochs: 100
+- Results: Loss - 0.5879, Accuracy - 0.7243
+
+![image](https://github.com/mehpree/deep-learning-challenge/assets/131678606/0c37cba1-9b12-447c-a6a0-98fc770ef93b)
 
 ## Optimized Model 2:
 
-Layers: 2
-Activation Functions: Tanh, Sigmoid
-Neurons: Layer 1: 80, Layer 2: 30
-Epochs: 50
-Results: Loss - 0.5651, Accuracy - 0.7238
+- Layers: 2
+- Activation Functions: Tanh, Sigmoid
+- Neurons: Layer 1: 80, Layer 2: 30
+- Epochs: 50
+- Results: Loss - 0.5651, Accuracy - 0.7238
 
 ## Optimized Model 3:
 
-Layers: 2
-Activation Functions: Tanh, Sigmoid
-Neurons: Layer 1: 30, Layer 2: 10
-Epochs: 80
-Results: Loss - 0.5613, Accuracy - 0.7258
+- Layers: 2
+- Activation Functions: Tanh, Sigmoid
+- Neurons: Layer 1: 30, Layer 2: 10
+- Epochs: 80
+- Results: Loss - 0.5613, Accuracy - 0.7258
+- 
 Model Performance:
 Model 1 had two layers with Relu and Sigmoid activation functions and achieved an accuracy of approximately 72.90%.
 Optimized Model 1 introduced an additional layer and increased the number of neurons in each layer but performed slightly worse with an accuracy of approximately 72.43%.
 Optimized Model 2, with two layers and different activation functions, achieved an accuracy of approximately 72.38%.
 Optimized Model 3 had fewer neurons in each layer but achieved a slightly better accuracy of approximately 72.58%.
+
 Model Performance and Target:
 None of the models achieved a significantly higher accuracy than Model 1 (the baseline model). The differences in performance were relatively minor.
 
@@ -73,7 +77,6 @@ The neural network model is a key component of this analysis. The architecture o
     -   One or more hidden layers with a varying number of neurons.
     -   An output layer with a single neuron (binary classification) using a sigmoid activation function.
     -  The choice of the number of neurons and layers depends on the complexity of the problem. The activation functions used in hidden layers are typically ReLU (Rectified Linear Unit) to introduce non-linearity - detailed inputs are shown under the Summary Section. 
-
 
 **Steps to Improve Model Performance:**
 
