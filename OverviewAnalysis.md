@@ -53,6 +53,8 @@ Model Architectures:
 - Epochs: 50
 - Results: Loss - 0.5651, Accuracy - 0.7238
 
+![image](https://github.com/mehpree/deep-learning-challenge/assets/131678606/0e821e05-9547-4105-94d4-732759d3bfe9)
+
 ## Optimized Model 3:
 
 - Layers: 2
