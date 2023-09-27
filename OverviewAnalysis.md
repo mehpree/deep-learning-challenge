@@ -62,7 +62,9 @@ Model Architectures:
 - Neurons: Layer 1: 30, Layer 2: 10
 - Epochs: 80
 - Results: Loss - 0.5613, Accuracy - 0.7258
-- 
+
+![image](https://github.com/mehpree/deep-learning-challenge/assets/131678606/7ba92eae-d554-4547-83f2-7af47f9a2951)
+
 Model Performance:
 Model 1 had two layers with Relu and Sigmoid activation functions and achieved an accuracy of approximately 72.90%.
 Optimized Model 1 introduced an additional layer and increased the number of neurons in each layer but performed slightly worse with an accuracy of approximately 72.43%.
